@@ -1,0 +1,16 @@
+* text=auto
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+# バイナリファイルには行末コードの変換を無効にする
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+CHANGELOG.md export-ignore
